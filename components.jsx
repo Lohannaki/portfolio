@@ -125,7 +125,7 @@ function MaskLine({ children, delay = 0 }) {
 /* ─────────── Nav ─────────── */
 function Nav({ route, go }) {
   const links = [
-    { id: "home", label: "Index" },
+    { id: "home", label: "Accueil" },
     { id: "projects", label: "Travaux" },
     { id: "about", label: "À propos", target: "home", hash: "about" },
     { id: "contact", label: "Contact", target: "home", hash: "contact" }
