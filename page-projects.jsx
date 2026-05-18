@@ -32,7 +32,7 @@ function ProjectsPage({ go }) {
             <span className="eyebrow">Archive · 2024 — 2025</span>
             <Reveal>
               <h1 style={{ marginTop: 20 }}>
-                Travaux & <em>études</em>.
+                Projets & <em>études</em>.
               </h1>
             </Reveal>
           </div>
