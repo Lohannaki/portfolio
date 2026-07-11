@@ -1,0 +1,35 @@
+/* ── Lang toggle (à coller à la fin de styles.css) ── */
+.lang-toggle {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 6px 12px;
+  border-radius: 50px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink-soft);
+  cursor: none;
+  transition: border-color .25s var(--ease);
+  flex-shrink: 0;
+}
+.lang-toggle:hover { border-color: var(--ink); }
+.lt-sep { color: var(--line); opacity: 0.6; }
+.lt-active {
+  color: var(--ink);
+  font-weight: 500;
+  position: relative;
+}
+.lt-active::after {
+  content: "";
+  position: absolute;
+  bottom: -2px; left: 0; right: 0;
+  height: 1px;
+  background: var(--terracotta);
+}
+@media (max-width: 720px) {
+  .lang-toggle { font-size: 11px; padding: 5px 10px; }
+}
